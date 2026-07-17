@@ -13,6 +13,14 @@ This agent is designed to work alongside the [Customer Cowork Estimator](https:/
 - Compares what Microsoft 365 Copilot vs Copilot Cowork each contribute
 - Produces executive-ready recommendations
 
+### Agent Interface
+
+![Cowork Investment Advisor agent interface](Assets/cowork-investment-advisor-agent.png)
+
+### Sample Output
+
+![Sample assessment output showing persona identification, workflow discovery, credit analysis and ROI](Assets/sample-output.png)
+
 ## Qualification Criteria
 
 Not every workflow belongs in Copilot Cowork. The assessment enforces strict qualification — a workflow must demonstrate **all** of:
