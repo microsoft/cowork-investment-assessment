@@ -33,43 +33,17 @@ Not every workflow belongs in Copilot Cowork. The assessment enforces strict qua
 
 Workflows that are purely informational (summaries, reports, content generation) are automatically excluded and redirected to Copilot Chat, Pages, or Scheduled Prompts.
 
-## Repository Structure
+## Getting Started
 
 This repo provides the same agent in three formats — pick the one that matches your role and scenario:
 
-| Folder | Who it's for | Scope | What it does |
-|--------|-------------|-------|--------------|
-| **`Prompt/`** | Any user with a Copilot licence | Individual | Copy-paste a prompt into Copilot Chat for an immediate one-off assessment |
-| **`AgentBuilder/`** | Power users or team leads | Team | Create a reusable agent in M365 Copilot Agent Builder — best for smaller teams who want to share the agent amongst users without admin involvement |
-| **`Agent/`** | IT admins | Organisation | Pre-built agent zip ready to import into Agents 365 for org-wide deployment |
+| Approach | Who it's for | Scope | Use When |
+|----------|-------------|-------|----------|
+| **[Prompt](Prompt/Prompt.MD)** | Any user with a Copilot licence | Individual | You want to run the assessment immediately by pasting a prompt into Copilot Chat |
+| **[Agent Builder](AgentBuilder/AgentBuilder.MD)** | Power users or team leads | Team | You want to create a reusable agent and share it with your team — no admin involvement needed |
+| **[Agent (Pre-built)](Agent/Agent.MD)** | IT admins | Organisation | You want to deploy the agent org-wide via the Microsoft 365 Admin Centre (Agents 365) |
 
-```
-├── Agent/                  # Pre-built agent package for admin deployment
-│   ├── Agent.MD            # Deployment instructions
-│   └── Cowork Investment Advisor.zip
-│
-├── AgentBuilder/           # Manual agent creation via Copilot Agent Builder
-│   └── AgentBuilder.MD     # Step-by-step setup (name, description, instructions, starter prompts)
-│
-├── Prompt/                 # Standalone prompt for direct use
-│   └── Prompt.MD           # Full prompt — copy/paste into Microsoft 365 Copilot Chat
-│
-├── Assets/                 # Screenshots used in documentation
-│
-└── README.md
-```
-
-## Getting Started
-
-Choose the approach that fits your scenario:
-
-| Approach | Use When |
-|----------|----------|
-| **[Prompt](Prompt/Prompt.MD)** | You want to run the assessment immediately by pasting a prompt into Copilot Chat |
-| **[Agent Builder](AgentBuilder/AgentBuilder.MD)** | You want to create a reusable agent in M365 Copilot Agent Builder with starter prompts and knowledge sources |
-| **[Agent (Pre-built)](Agent/Agent.MD)** | An admin wants to deploy the agent org-wide via the Microsoft 365 Admin Centre |
-
-Each file includes its own prerequisites and setup details.
+Each folder includes its own prerequisites and step-by-step setup details.
 
 ## Contributing
 
