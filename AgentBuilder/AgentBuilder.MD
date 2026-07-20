@@ -6,9 +6,18 @@ Follow these instructions to create the Copilot Cowork Investment Assessment age
 
 ## Steps to Create the Agent
 
-1. Go to [Microsoft 365 Copilot](https://m365.cloud.microsoft/chat) or [Copilot Studio](https://copilotstudio.microsoft.com)
-2. Select **Create an Agent** (or **Agents > New Agent**)
-3. Fill in the fields below
+1. Go to [Microsoft 365 Copilot](https://m365.cloud.microsoft/chat) and select **Think deeper** ❶
+2. Set the agent **Name** ❷ to the value in the [Name](#name) section below
+3. Set the **Description** ❸ to the value in the [Description](#description) section below
+4. Copy the full **Instructions** from the [Instructions](#instructions) section below — use the 📋 copy icon in the top-right of the code block on GitHub to copy it all in one click — then paste into the **Instructions** field ❹
+5. Under **Knowledge**, enable **Cloud files**, **Outlook**, **Teams**, and **Web search** ❺ (toggle "Search all" for each)
+6. Add the **Suggested prompts** ❻ from the [Starter Prompts](#starter-prompts) section below
+
+![Agent Builder interface showing configuration fields](../Assets/agentbuilder.png)
+
+---
+
+[← Back to Getting Started](../README.md#getting-started)
 
 ---
 
@@ -27,6 +36,8 @@ Identifies and evaluates high-value Copilot Cowork workflow opportunities using 
 ```
 
 ### Instructions
+
+> **Tip:** On GitHub, hover over the code block below and click the 📋 copy icon in the top-right corner to copy the entire instructions in one click.
 
 ```
 # ROLE

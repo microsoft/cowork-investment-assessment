@@ -1,6 +1,33 @@
 # Prompt – Copilot Cowork Investment Assessment
 
-Copy and paste the entire prompt below into Microsoft 365 Copilot Chat to run the assessment.
+## Overview
+
+This file contains the full prompt for running a Cowork Investment Assessment directly in Microsoft 365 Copilot Chat. No agent setup is required — just copy, paste, and run.
+
+## How to Use
+
+### Prerequisites
+
+- Microsoft 365 Copilot licence assigned to your account
+- Access to [Microsoft 365 Copilot Chat](https://m365.cloud.microsoft/chat)
+
+### Steps
+
+1. **Open** [Microsoft 365 Copilot Chat](https://m365.cloud.microsoft/chat) in your browser or the Microsoft 365 app.
+
+2. **Copy** the entire prompt from the [Prompt](#prompt) section below. On GitHub, hover over the code block and click the **copy icon** (📋) in the top-right corner — this copies the full prompt in one click without scrolling.
+    ![Click the copy icon in the top-right of the code block to copy the entire prompt](../Assets/PromptCopy.png)
+
+3. **Paste** the prompt into the Copilot Chat input field.
+    ![Paste the prompt into Microsoft 365 Copilot Chat](../Assets/M365CopilotPrompt.png)
+
+4. **Send** the message. Copilot will analyse your Work IQ signals and produce the full investment assessment.
+
+> **Tip:** The prompt is long by design — it contains all the instructions the agent needs to perform a comprehensive assessment in a single turn.
+
+---
+
+[← Back to Getting Started](../README.md#getting-started)
 
 ---
 
