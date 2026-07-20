@@ -35,6 +35,14 @@ Workflows that are purely informational (summaries, reports, content generation)
 
 ## Repository Structure
 
+This repo provides the same agent in three formats — pick the one that matches your role and scenario:
+
+| Folder | Who it's for | Scope | What it does |
+|--------|-------------|-------|--------------|
+| **`Prompt/`** | Any user with a Copilot licence | Individual | Copy-paste a prompt into Copilot Chat for an immediate one-off assessment |
+| **`AgentBuilder/`** | Power users or team leads | Team | Create a reusable agent in M365 Copilot Agent Builder — best for smaller teams who want to share the agent amongst users without admin involvement |
+| **`Agent/`** | IT admins | Organisation | Pre-built agent zip ready to import into Agents 365 for org-wide deployment |
+
 ```
 ├── Agent/                  # Pre-built agent package for admin deployment
 │   ├── Agent.MD            # Deployment instructions
@@ -46,7 +54,9 @@ Workflows that are purely informational (summaries, reports, content generation)
 ├── Prompt/                 # Standalone prompt for direct use
 │   └── Prompt.MD           # Full prompt — copy/paste into Microsoft 365 Copilot Chat
 │
-└── readme.md
+├── Assets/                 # Screenshots used in documentation
+│
+└── README.md
 ```
 
 ## Getting Started
