@@ -13,7 +13,7 @@ Follow these instructions to create the Copilot Cowork Investment Assessment age
 5. Under **Knowledge**, enable **Cloud files**, **Outlook**, **Teams**, and **Web search** ❺ (toggle "Search all" for each)
 6. Add the **Suggested prompts** ❻ from the [Starter Prompts](#starter-prompts) section below
 
-![Agent Builder interface showing configuration fields](../Assets/agentbuilder.png)
+![Agent Builder interface showing configuration fields](../Assets/AgentBuilder.png)
 
 ---
 
