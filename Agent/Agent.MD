@@ -4,7 +4,7 @@
 
 This is a pre-built declarative agent packaged as a zip file. An admin can import it into Microsoft 365 and make it available to all users in the organisation.
 
-The agent zip file is included in this folder: **`Cowork Investment Advisor.zip`**
+The agent zip file is located at: **[`Agent/Cowork Investment Advisor.zip`](Cowork%20Investment%20Advisor.zip)**
 
 ## Import & Deployment Instructions
 
@@ -12,17 +12,18 @@ The agent zip file is included in this folder: **`Cowork Investment Advisor.zip`
 
 - Microsoft 365 admin access (Global Admin or Teams Admin role)
 - Microsoft 365 Copilot licences assigned to target users
-- Access to the Microsoft 365 Admin Centre
+- Access to the Microsoft 365 Admin Centre (Agents 365)
 
 ### Steps
 
-1. **Download** the file `Cowork Investment Advisor.zip` from this folder.
+1. **Download** the file [`Cowork Investment Advisor.zip`](Cowork%20Investment%20Advisor.zip) from the `Agent/` folder in this repository.
 
-2. **Go to** the [Microsoft 365 Admin Centre](https://admin.microsoft.com) and select **Agents** from the left-hand menu.
+2. **Open** the [Microsoft 365 Admin Centre](https://admin.cloud.microsoft.com) ❶ and navigate to **Agents** > **All agents** in the left-hand menu ❷.
+    ![Agents 365 admin interface showing navigation to add an agent](../Assets/AgentUpload.png)
 
-3. **Click** "Upload custom agent".
+3. **Click** the **ellipsis menu (...)** in the top-right of the agents list ❸, then select **+ Add agent** ❹.
 
-4. **Choose** the `Cowork Investment Advisor.zip` file. The platform will validate the contents.
+4. **Upload** the `Cowork Investment Advisor.zip` file. The platform will validate the package contents.
 
 5. **Verify agent details** — review the agent's name, icon, and which products it will work with, then click **Next**.
 
@@ -30,7 +31,7 @@ The agent zip file is included in this folder: **`Cowork Investment Advisor.zip`
 
 7. **Review permissions and capabilities** — confirm what the agent can access and do, then click **Next**.
 
-8. **Finalise** — click "Finish deployment" to publish the agent. It is now part of your organisation's agent inventory.
+8. **Finalise** — click "Finish deployment" to publish the agent.
 
 ### Post-Deployment
 
@@ -38,6 +39,6 @@ The agent zip file is included in this folder: **`Cowork Investment Advisor.zip`
 - Users can access the agent from the Copilot agent picker in Microsoft 365 Copilot Chat.
 - The agent will appear as "Cowork Investment Advisor" in the agent list.
 
-## What the Agent Does
+---
 
-This agent performs a Copilot Cowork Investment Assessment — it identifies workflows suitable for Copilot Cowork automation, assesses complexity, calculates credit consumption and ROI, and provides executive-level recommendations. See [Prompt.MD](../Prompt/Prompt.MD) for the full assessment methodology.
+[← Back to Getting Started](../README.md#getting-started)
